@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                <span>Reyan</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#About">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="#Skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="#Projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="#Contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburgOn()"></i>
+
+        </div>
+        <div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="1500">
+                <img src="img/new.png" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left">
+                    Hi,Im
+                    <span>Reyan</span>
+                </h1>
+                <div class="typewriter">
+                    I,m a Web Developer
+                    <span class="typewriter-text"></span>
+                    <label for=""></label>
+                </div>
+                <p>I am a passionate and skilled Web Developer with a strong foundation in front-end and back-end technologies. My expertise lies in crafting responsive, user-friendly websites and applications with clean, maintainable code.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="btn">
+                    <button>Hire Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="About" id="About">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="img/image.webp" alt="">
+                </div>
+                <div class="right">
+                    <div class="topic">Designing Is My Passion</div>
+                    <p>Design is more than just a visual craft—it's about creating user experiences that are functional, beautiful, and intuitive. With a strong foundation in front-end development and a keen eye for detail, I approach design with a focus on balancing aesthetics and usability.
+
+                    </p>
+                    <div class="button">
+                        <button><a href="Reyan vaghela.pdf">Download CV</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Skills" id="Skills">
+        <div class="content">
+            <div class="title"><span>Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">
+                        Skills Reflects our Knowledge
+                    </div>
+                    <p data-aos="fade-right">As a Computer Science graduate with a strong focus on web development and software engineering, I have cultivated a wide range of technical skills that reflect my expertise in frontend development. My knowledge has been strengthened through formal education, certifications, and practical experiences in various projects, including tic toe toe gameplay, stopwatch, and responsive landing Page.
+                    </p>
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="topic">HTML</div>
+                            <div class="per">90%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic">CSS</div>
+                            <div class="per">80%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic">javaScript</div>
+                            <div class="per">60%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="Projects" id="Projects">
+        <div class="Project">
+            <div class="title">
+                <span>Projects</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Tic Tac Toe</div>
+                    <p>The Tic-Tac-Toe game is a web-based application developed to showcase core skills in front-end development and JavaScript logic. This classic two-player game allows users to enjoy a seamless, interactive experience either against a friend or a computer opponent.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-stopwatch"></i>
+                    </div>
+                    <div class="topic">Stopwatch</div>
+                    <p>This project is a fully functional Stopwatch Application developed using HTML, CSS, and JavaScript. The application allows users to start, stop, and reset a timer with precision down to milliseconds. It provides a clean, responsive UI and is optimized for both desktop and mobile devices. The stopwatch is designed to be user-friendly with clear buttons for functionality and real-time updates of time on the screen.</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="topic">Landing Page</div>
+                    <p>Designed and developed a fully responsive landing page for [Business/Product Name] with a focus on user experience, mobile optimization, and modern design practices. The landing page adapts seamlessly to different screen sizes, providing a consistent and intuitive experience across devices, including desktops, tablets, and smartphones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Contact" id="Contact">
+        <div class="contact">
+            <div class="title">
+                <span>Contact Me</span>
+            </div>
+            <div class="text">
+                <div class="topic">Have Any Projects?</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea.</p>
+                <div class="button">
+                    <button>Let's Chat</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="text">
+            <span>created by <a href="#">Reyan</a>
+            </span>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+</body>
+
+</html>
